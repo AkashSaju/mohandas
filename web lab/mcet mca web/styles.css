@@ -1,0 +1,59 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+        }
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            background-color: #333;
+            padding-top: 20px;
+        }
+        .sidenav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .sidenav a:hover {
+            background-color: #575757;
+        }
+        .main {
+            margin-left: 260px; /* Space for the sidenav */
+            padding: 20px;
+            flex-grow: 1;
+            background-color: #f4f4f4;
+        }
+       h1
+        {
+            font-size: 50px;
+            text-align: center; /* Center-aligns the text */
+            color: #333; /* Optional: text color */
+        }
+       
+        p {
+            font-size: 20px; /* Set the font size */
+            line-height: 1.6; /* Optional: improve readability */
+            color: #555; /* Optional: text color */
+          }
+  
+         h2
+          {
+            color: white;
+          
+          }
+     .my-button {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            border: none; /* No border */
+            padding: 10px 20px; /* Some padding */
+            text-align: center; /* Center text */
+            text-decoration: none; /* No underline */
+            display: inline-block; /* Make it inline */
+            font-size: 16px; /* Font size */
+            margin: 4px 2px; /* Margin */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 5px; /* Rounded corners */
+        }
